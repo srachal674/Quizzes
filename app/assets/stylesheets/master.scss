@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import "bootstrap";
+
+header{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+h1{
+  color: #461D7C;
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-shadow:
+    -1px -1px 0 #FDD023,
+    1px -1px 0 #FDD023,
+    -1px 1px 0 #FDD023,
+    1px 1px 0 #FDD023;
+}
+
+h2{
+  color: #461d7c;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+h3{
+  color: #461d7c;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h4{
+  color: #461d7c;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+h5{
+  color: #FDD023;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+}
+
+body{
+  font-family: "Raleway" sans-serif;
+  background-image: image-url("bkg.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+}
+
+footer{
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.box{
+  float: left;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 1%;
+  padding: 50px;
+}
+
+.table{
+  margin: 5px auto;
+  empty-cells: hide;
+}
+/* A link not selected*/
+/*.a:link{
+  text-align: center;
+  text-decoration: none;
+  color: #FDD023;
+}
+
+/*A visited link */
+/*.a:visited{
+  color: #d9d9d9;
+  text-decoration: none;
+}*/
+/* A link with mouse over it */
+/*.a:hover{
+  text-transform: bold;
+  text-decoration: none;
+  color: white;
+}*/
+
+/* An active link */
+/*.a:active{
+  color: white;
+  text-decoration: none;
+}*/
+.dropdown-menu{
+  width: 63%;
+  text-align: center;
+  /*background-color: #461D7C;*/
+}
+
+/*.contact-me {
+  height: 350px;
+  background-color: #202020;
+  padding-top: 30px;
+}*/
+
+/*.p{
+  text-align: center;
+}*/
