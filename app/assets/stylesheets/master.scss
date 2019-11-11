@@ -54,6 +54,11 @@ h5{
   font-size: 22px;
 }
 
+hr {
+  border-color: #FDD023;
+  
+}
+
 body{
   font-family: "Raleway" sans-serif;
   background-image: image-url('bkg.jpg');
@@ -111,6 +116,17 @@ footer{
   /*background-color: #461D7C;*/
 }
 
+.dropdown {
+  width: auto;
+  margin-left: 25%;
+  /*background-color: #461d7c;*/
+}
+
+.btn-group {
+  width: auto;
+  padding-top: 20px;
+  margin-left: 25%;
+}
 /*.contact-me {
   height: 350px;
   background-color: #202020;
@@ -120,3 +136,4 @@ footer{
 /*.p{
   text-align: center;
 }*/
+

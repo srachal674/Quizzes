@@ -9,46 +9,29 @@
       <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     
     <h1>Miss Rachal's Student Resources</h1>
+    <hr />
    <br /> 
   </head>
 
   <body>
-
-    <table class="table">
-     <td><div class="box btn-group">
-        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        <h2>Game Design</h2><span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a href="unit1">Unit 1</a></li>
-          <li><a href="#">Unit 2</a></li>
-          <li><a href="#">Unit 3</a></li>
-          <li><a href="#">Unit 4</a></li>
-          <li><a href="#">Unit 5</a></li>
-          <li><a href="#">Unit 6</a></li>
-          <li><a href="#">Unit 7</a></li>
-          <li><a href="#">Unit 8</a></li>
-        </ul>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">Game Design 1</button>
+      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="./resources/unit1.html">Unit 1</a>
+        <a class="dropdown-item" href="#">Unit 2</a>
       </div>
-      </td>
-      
-      <td></td>
-
-      <td><div class="box btn-group">
-        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-        <h2>English 2B</h2><span class="caret"></span> 
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">English 2B</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
         </button>
-        <ul class="dropdown-menu">
-          <li><a href="research.html">Research Paper</a></li>
-          <li><a href="graphic.html">Graphic Organizers</a></li>
-          <li><a href="sites.html">Helpful Sites</a></li>
-          <li><a href="plan.pdf">Class Plan</a></li>
-        </ul>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="./resources/English/research.html">Research Paper</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+        </div>
       </div>
-      </td>
-
     </div>
-   </table> 
+    
     <%= yield %>
   </body>
 
