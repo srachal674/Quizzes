@@ -109,23 +109,18 @@ footer{
   color: white;
   text-decoration: none;
 }*/
-/* .dropdown-menu{
-  width: 63%;
-  text-align: center;
+
+.navbar-nav {
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: #461D7C;
-} */
-
-/*.dropdown {
-  width: auto;
-  margin-left: 25%;
-  /*background-color: #461d7c;
-} */
-
-.btn-group {
-  width: auto;
-  padding-top: 20px;
-  margin-left: 25%;
 }
+
+.nav-link, .nav-item {
+  margin-left: 5%;
+  color: #FDD023;  
+}
+
 /*.contact-me {
   height: 350px;
   background-color: #202020;
