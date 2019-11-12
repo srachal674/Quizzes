@@ -53,8 +53,9 @@ GEM
     bindex (0.8.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
-    bootstrap (4.0.0.alpha6)
+    bootstrap (4.0.0.beta)
       autoprefixer-rails (>= 6.0.3)
+      popper_js (~> 1.11.1)
       sass (>= 3.4.19)
     builder (3.2.3)
     byebug (11.0.1)
@@ -81,7 +82,7 @@ GEM
     crass (1.0.5)
     erubi (1.9.0)
     execjs (2.7.0)
-    ffi (1.11.1)
+    ffi (1.11.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.7.0)
@@ -206,7 +207,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.1.0)
-  bootstrap (= 4.0.0.alpha6)
+  bootstrap
   byebug
   capybara (>= 2.15)
   chromedriver-helper
